@@ -1,4 +1,4 @@
-# PRE-REQUISITE
+## PRE-REQUISITE
 * After cloning or pulling from this repo, enter the command ```npm install ``` in the terminal to install all dependencies used for this project
 * Make sure your .env file is set up with all the necessary keys and endpoints needed. The template is shown below;
 ```
@@ -11,23 +11,23 @@ MUMBAI_URL= https://rpc-mumbai.maticvigil.com
 * Note that the smart contract is deployed in **POLYGON MUMBAI TESTNET**. Hence, mumbai faucet will be needed in testing the smart contract. Faucet can be gotten here 👉👉 https://mumbaifaucet.com/
 * All the items that have been listed are to be set up to ensure smooth running of the program
 
-# CONTRACT DETAILS
+## CONTRACT DETAILS
 Contract Address: 0x83D681a2Bce0610F2a7310c5CbD3F3470E154A5d <br/>
 Link: https://mumbai.polygonscan.com/address/0x83D681a2Bce0610F2a7310c5CbD3F3470E154A5d
 
 
-# COMPILATION
+## COMPILATION
 Enter the command shown below to compile your solidity code
 ```
 truffle compile
 ```
-# DEPLOYMENT
+## DEPLOYMENT
 The script ```1_deploy_contracts.js``` under the migrations directory is the one deploying the smart contract.<br/> 
 Enter the command shown below to deploy the smart contract to mumbai test network
 ```
 truffle deploy --network matic
 ```
-# Running Tests
+# RUNNING TESTS
 The test file can be found in **test\skillsForge.js**. The test file has two categories of test;
 * Test for the deposit() function in the smart contract. The deposit function allows users to deposit MATIC in the smart contract. To run that particular test, type the command below in the terminal
 ```
@@ -43,7 +43,7 @@ truffle test -- -g "should be able to deposit ether into the SkillsForgeContract
 
 * Note that the test is using truffle test network. This is to ensure faster execution and to save gas. 
 
-# Running Scripts
+## RUNNING SCRIPTS
 
 The scripts are located in the scripts directory. 3 script are written; <br/>
 1. checkBalance.js <br/>
