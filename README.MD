@@ -12,8 +12,9 @@ MUMBAI_URL= https://rpc-mumbai.maticvigil.com
 * All the items that have been listed are to be set up to ensure smooth running of the program
 
 ## CONTRACT DETAILS
-Contract Address: 0x83D681a2Bce0610F2a7310c5CbD3F3470E154A5d <br/>
-Link: https://mumbai.polygonscan.com/address/0x83D681a2Bce0610F2a7310c5CbD3F3470E154A5d
+Contract Address: 0xC5FF6406F0d4f7FC65517A59F5992BF4140d1880 <br/>
+Link: https://mumbai.polygonscan.com/address/0xC5FF6406F0d4f7FC65517A59F5992BF4140d1880<br/>
+Link to the assessment demo: https://www.youtube.com/watch?v=ztHJnRXVU-4
 
 
 ## COMPILATION
@@ -27,6 +28,9 @@ Enter the command shown below to deploy the smart contract to mumbai test networ
 ```
 truffle deploy --network matic
 ```
+OR<br/>
+If any issue is encountered while trying to deploy with truffle, REMIX is an alternative. It can be deployed with REMIX 👉👉 https://remix.ethereum.org/
+
 # RUNNING TESTS
 The test file can be found in **test\skillsForge.js**. The test file has two categories of test;
 * Test for the deposit() function in the smart contract. The deposit function allows users to deposit MATIC in the smart contract. To run that particular test, type the command below in the terminal
