@@ -4,7 +4,7 @@ const truffleAssert = require('truffle-assertions');
 
 
 contract('SkillsForgeContract', (accounts) => {
-  it('should be able to deposit ether into the SkillsForgeContract', async () => {
+  it('should be able to deposit MATIC into the SkillsForgeContract', async () => {
     const contractInstance = await SkillsForgeContract.deployed();
 
     const depositor = accounts[0]

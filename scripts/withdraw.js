@@ -1,7 +1,7 @@
 const {
   abi,
   networks,
-} = require("../build/contracts/SkillsForgeContract.json");
+} = require("../build/contracts/SkillsForgeContractDetails.json");
 
 module.exports = async function () {
   try {
@@ -17,7 +17,7 @@ module.exports = async function () {
 
     // Put the wallet to withdraw to here
     const depositorAddress = accounts[0];
-    const amount = web3.utils.toWei("0.1", "ether");
+    const amount = web3.utils.toWei("0.01", "ether");
 
     const depositorInitialBalance = web3.utils.fromWei(
       await web3.eth.getBalance(depositorAddress),

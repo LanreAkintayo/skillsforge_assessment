@@ -1,7 +1,7 @@
 const {
   abi,
   networks,
-} = require("../build/contracts/SkillsForgeContract.json");
+} = require("../build/contracts/SkillsForgeContractDetails.json");
 
 module.exports = async function () {
   try {
